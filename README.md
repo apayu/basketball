@@ -1,24 +1,13 @@
-# README
+## use ngrok to get the yahoo api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1.
+go to https://ngrok.com/docs, then download ngrok
 
-Things you may want to cover:
+2.
+```
+$ ./ngrok http 3000
+```
 
-* Ruby version
+use this repo
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://github.com/karan-pathak/omniauth-yahoo_auth

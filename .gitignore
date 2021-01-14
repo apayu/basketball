@@ -12,6 +12,11 @@
 /db/*.sqlite3-journal
 /db/*.sqlite3-*
 
+# Dotenv
+.env
+.env*
+!.env.example
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
